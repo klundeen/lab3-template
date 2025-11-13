@@ -1,0 +1,17 @@
+[project]
+name = "retrieval"
+version = "0.1.0"
+description = "Lab 3 scaffold to P2 doc retrieval system"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.121.1",
+    "httpx>=0.28.1",
+    "pydantic>=2.12.4",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.38.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
